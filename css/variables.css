@@ -1,0 +1,11 @@
+:root {
+  --blue: #005baa;
+  --dark-blue: #003f7d;
+  --light-blue: #eef7ff;
+  --red: #d71920;
+  --text: #222;
+  --muted: #666;
+  --border: #e5e5e5;
+  --white: #fff;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}

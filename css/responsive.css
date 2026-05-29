@@ -1,0 +1,154 @@
+@media (max-width: 1024px) {
+  .header-inner {
+    min-height: 76px;
+  }
+
+  .nav-toggle {
+    display: inline-block;
+  }
+
+  .main-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-top: 1px solid var(--border);
+    display: none;
+  }
+
+  .main-nav.open {
+    display: block;
+  }
+
+  .main-nav > ul {
+    display: block;
+    width: min(1180px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 10px 0 18px;
+  }
+
+  .main-nav > ul > li > a {
+    padding: 13px 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .dropdown {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    width: 100%;
+    box-shadow: none;
+    display: none;
+    border-top: 0;
+    padding-left: 12px;
+  }
+
+  .main-nav li:hover .dropdown {
+    display: block;
+  }
+
+  .quick-grid,
+  .card-grid,
+  .stats-grid,
+  .campus-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .content-layout,
+  .feature-card,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-body {
+    padding: 0 20px 22px;
+  }
+
+  .partner-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .topbar .container,
+  .section-head {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .brand h1 {
+    font-size: 17px;
+  }
+
+  .logo {
+    width: 52px;
+    height: 52px;
+  }
+
+  .hero {
+    min-height: 420px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .quick-grid,
+  .card-grid,
+  .stats-grid,
+  .campus-grid,
+  .media-band,
+  .partner-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-links {
+    margin-top: 20px;
+  }
+
+  .quick-card {
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+  }
+}
+@media (max-width: 1024px) {
+
+  .nav-toggle {
+    display: block;
+    background: white;
+    color: #003f7d;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 20px;
+  }
+
+  .main-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #003f7d;
+    display: none;
+  }
+
+  .main-nav.open {
+    display: block;
+  }
+
+  .main-nav > ul {
+    display: block;
+    padding: 20px;
+  }
+
+  .main-nav > ul > li > a {
+    padding: 14px 0;
+    display: block;
+  }
+
+  .top-menu {
+    display: none;
+  }
+}
